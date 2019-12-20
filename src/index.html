@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Chris' Website</title>
+	<meta name="keywords" content="Chris Tan,Chris,Personal Website, Portfolio,Experience,University of Waterloo,Computer Engineering">
+	<meta name="author" content="Chris Tan">
+	<meta name="description" content="To err is human; but to to really foul things up you need a computer. Here's my attempt.">
+	<!--Bootstrap 4-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	
+	<!--Bootstrap requires jQuery, Popper.js, and other plugins in order to use Javascript-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	
+	<!--Font Awesome-->
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<script defer src="https://use.fontawesome.com/releases/v5.9.0/js/all.js" integrity="sha384-7Gk1S6elg570RSJJxILsRiq8o0CO99g1zjfOISrqjFUCjxHDn3TmaWoWOqt6eswF" crossorigin="anonymous"></script>
+  
+  <!--Particles.js-->
+  <link rel="stylesheet" href="./style.css">
+  <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
+
+  <!--New fonts:-->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:700|Raleway:300&display=swap" rel="stylesheet">
+
+
+
+  <script>
+      $(document).ready(function () {
+        $('h1').fadeIn(2000).removeClass('hidden');
+        $('#one').fadeIn(4000).removeClass('hidden');
+        $('#two').fadeIn(4300).removeClass('hidden');
+        $('#three').fadeIn(4600).removeClass('hidden');
+
+        $('#resume').fadeIn(8000).removeClass('hidden');
+        $('#linkedin').fadeIn(7000).removeClass('hidden');
+        $('#github').fadeIn(6000).removeClass('hidden');
+        $('#writing').fadeIn(7000).removeClass('hidden');
+        $('#instagram').fadeIn(8000).removeClass('hidden');
+      });
+      </script>
+</head>
+<body>
+<!-- particles.js container --> 
+<div id="particles-js">
+
+    <h1 class="text-center hidden" ><span id="spec">hey, im chris</span> @ <u><span style="color: rgb(255, 234, 41)">UWaterloo</span></u>!</h1>
+    <p id="one" class="text-center hidden">software developer intern at <a style="color: red; font-weight: bold" target="_blank" href="https://www.scotiabank.com/"><span style="color: red; font-weight: bold">Scotiabank</span></a>.</p>
+    <p id="two" class="text-center hidden">ski instructor at <a style="color: rgb(102, 0, 0); font-weight: bold" target="_blank" href="https://www.grousemountain.com"><span style="color: rgb(102, 0, 0); font-weight: bold">Grouse Mountain</span></a>.</p>
+    <p id="three" class="text-center hidden">amateur writer on <a style="color:black; font-weight: bold" target="_blank" href="https://medium.com/@chrisinquires/the-modern-fire-of-olympus-d28d14858e60"><span style="color: black; font-weight: bold">Medium</span></a>.</p>
+    
+    <p id="resume" class="text-center hidden"><a style="color: black" target="_blank" href="http://tanchris.com/resume.pdf"><i class="fas fa-file"></i>resume.</a></p>
+    <p id="linkedin" class="text-center hidden"> <a style="color:rgb(40,103,178)" target="_blank" href="https://www.linkedin.com/in/tan-chris/"><i class="fab fa-linkedin"></i>linkedin.</a></p>
+    <p id="github" class="text-center hidden"><a style="color:rgb(88, 0, 88)" target="_blank" href="https://github.com/t-chris"><i class="fab fa-github"></i>github.</a></p>
+    <p id="writing" class="text-center hidden"><a style="color: grey" target="_blank" href="mailto:chrisinquires@gmail.com"><i class="fas fa-paper-plane"></i>email.</a></p>
+    <p id="instagram" class="text-center hidden"><a style="color:rgb(253,29,29)" target="_blank" href="https://www.instagram.com/tan.chr/"><i class="fab fa-instagram"></i> instagram. </a></p>
+
+
+
+</div> <!-- stats - count particles --> 
+
+<!-- partial -->
+
+  <script  src="./script.js"></script>
+  
+</body>
+</html>

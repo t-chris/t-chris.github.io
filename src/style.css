@@ -1,0 +1,182 @@
+    body{ 
+        margin:0; font:normal 75% Arial, Helvetica, sans-serif; 
+    } 
+    canvas
+    { 
+        display: block; 
+        vertical-align: bottom; 
+    } 
+    #particles-js
+    { 
+        position:absolute; 
+        width: 100%; height: 100%; 
+        background-color: #ffffff; 
+        background-image: url(""); 
+        background-repeat: no-repeat; 
+        background-size: cover; 
+        background-position: 50% 50%; 
+    } 
+    .count-particles
+    { 
+        background: #000022; 
+        position: absolute; 
+        top: 48px; 
+        left: 0; 
+        width: 80px; 
+        color: #13E8E9; 
+        font-size: .8em; 
+        text-align: left; 
+        text-indent: 4px; 
+        line-height: 14px; 
+        padding-bottom: 2px; 
+        font-family: Helvetica, Arial, sans-serif; 
+        font-weight: bold; 
+    } 
+    .js-count-particles
+    { 
+            font-size: 1.1em; 
+    } 
+    #stats, 
+    .count-particles
+    { 
+        -webkit-user-select: none; 
+        margin-top: 5px; 
+        margin-left: 5px; 
+    } 
+    #stats
+    { 
+        border-radius: 3px 3px 0 0; 
+        overflow: hidden; 
+    } 
+    .count-particles{ 
+        border-radius: 0 0 3px 3px; 
+    }
+    #spec {
+        text-decoration: none;
+        border-top: 5px solid rgb(255, 234, 41);
+    }
+
+    h1 {
+        
+        font-family: 'Montserrat', sans-serif;
+        font-size: 50px;
+        font-weight: 500;
+        position: absolute;
+        z-index: 20;
+        top: 42%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: black;
+      }
+    #one {
+       
+        font-family: 'Raleway', sans-serif;
+        position: absolute;
+        font-size: 20px;
+
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: black;
+      }
+
+    #two {
+        
+        font-family: 'Raleway', sans-serif;
+        position: absolute;
+        font-size: 20px;
+
+        top: 55%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: black;
+    }
+    #three {
+        font-family: 'Raleway', sans-serif;
+        position: absolute;
+        font-size: 20px;
+        z-index: 20;
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: black;
+    }
+
+
+
+
+    #resume {
+        font-family: 'Raleway', sans-serif;
+        position: absolute;
+        font-size: 20px;
+        z-index: 20;
+        top: 80%;
+        left: 30%;
+        transform: translate(-50%, -50%);
+        color: black;
+    }
+
+    #linkedin {
+        font-family: 'Raleway', sans-serif;
+        position: absolute;
+        font-size: 20px;
+        z-index: 20;
+        top: 80%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+        color: black;
+    }
+
+    #github {
+        font-family: 'Raleway', sans-serif;
+        position: absolute;
+        font-size: 20px;
+        z-index: 20;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: black;
+    }
+
+    #writing {
+        font-family: 'Raleway', sans-serif;
+        position: absolute;
+        font-size: 20px;
+        z-index: 20;
+        top: 80%;
+        left: 60%;
+        transform: translate(-50%, -50%);
+        color: black;
+    }
+
+    #instagram {
+        font-family: 'Raleway', sans-serif;
+        position: absolute;
+        font-size: 20px;
+        z-index: 20;
+        top: 80%;
+        left: 70%;
+        transform: translate(-50%, -50%);
+        color: black;
+    }
+
+
+
+    .hidden {
+        display: none;
+    }
+    #spec {
+        text-decoration: none;
+        border-top: 5px solid rgb(255, 234, 41);
+    }
+
+
+    u {
+        text-decoration: none;
+        border-bottom: 5px solid black;
+      }
+
+      
+
+      
+    
