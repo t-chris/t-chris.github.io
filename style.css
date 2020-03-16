@@ -1,289 +1,144 @@
-    
-@media only screen and (min-width: 768px) {/*tablets and desktop*/
-    h1 {
-        
-        font-family: 'Montserrat', sans-serif;
-        font-size: 50px;
-        font-weight: 500;
-        position: absolute;
-        z-index: 20;
-        top: 35%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: black;
-      }
-    #one {
-       
-        font-family: 'Raleway', sans-serif;
-        position: absolute;
-        font-size: 20px;
-
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: black;
-      }
-
-    #two {
-        
-        font-family: 'Raleway', sans-serif;
-        position: absolute;
-        font-size: 20px;
-
-        top: 55%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: black;
-    }
-    #three {
-        font-family: 'Raleway', sans-serif;
-        position: absolute;
-        font-size: 20px;
-        z-index: 20;
-        top: 60%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: black;
-    }
+html, body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Source Code Pro', monospace;
+    color: #222222;
+    scroll-behavior: smooth;
+  }
 
 
+  .class-group-item:hover {
+    color: #2693ff;
+  }
 
-
-    #resume {
-        font-family: 'Raleway', sans-serif;
-        position: absolute;
-        font-size: 20px;
-        z-index: 20;
-        top: 80%;
-        left: 30%;
-        transform: translate(-50%, -50%);
-        color: black;
-    }
-
-    #linkedin {
-        font-family: 'Raleway', sans-serif;
-        position: absolute;
-        font-size: 20px;
-        z-index: 20;
-        top: 80%;
-        left: 40%;
-        transform: translate(-50%, -50%);
-        color: black;
-    }
-
-    #github {
-        font-family: 'Raleway', sans-serif;
-        position: absolute;
-        font-size: 20px;
-        z-index: 20;
-        top: 80%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: black;
-    }
-
-    #writing {
-        font-family: 'Raleway', sans-serif;
-        position: absolute;
-        font-size: 20px;
-        z-index: 20;
-        top: 80%;
-        left: 60%;
-        transform: translate(-50%, -50%);
-        color: black;
-    }
-
-    #instagram {
-        font-family: 'Raleway', sans-serif;
-        position: absolute;
-        font-size: 20px;
-        z-index: 20;
-        top: 80%;
-        left: 70%;
-        transform: translate(-50%, -50%);
-        color: black;
-    }
+  .var-highlight{
+	color: #C0AD60;
+}
+.string-highlight{
+	color: rgba(253, 149, 90, 0.8);
+}
+  
+  
+ .line{
+width: 112px;
+height: 47px;
+border-bottom: 1px solid black;
+position: absolute;
 }
 
-@media only screen and (max-width: 900px) { /*phones*/
-    h1 {
-        
-        font-family: 'Montserrat', sans-serif;
+/* Cursor Styling */
+
+.cursor::after {
+    content:'';
+    display:inline-block;
+    margin-left:3px;
+    background-color:white;
+    animation-name:blink;
+    animation-duration:0.5s;
+    animation-iteration-count: infinite;
+  }
+  h1.cursor::after {
+    height:24px;
+    width:13px;
+  }
+  p.cursor::after {
+    height:13px;
+    width:6px;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity:1;
+    }
+    49% {
+      opacity:1;
+    }
+    50% {
+      opacity:0;
+    }
+    100% {
+      opacity:0;
+    }
+  }
+
+@-webkit-keyframes blink{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+
+@-moz-keyframes blink{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+
+@keyframes blink{
+	0%{opacity: 0;}
+	100%{opacity: 1;}
+}
+
+.hidden {
+    display: none;
+}
+
+@media only screen and (min-width: 888px) {/*tablets and desktop*/
+    .title {
+        font-family: 'Source Code Pro', monospace;
         font-size: 40px;
         font-weight: 500;
-        position: absolute;
-        top: 30%;
-        left: 50%;
-        transform: translate(-50%, -50%);
+        z-index: 20;
         color: black;
-      }
-    #one {
-       
-        font-family: 'Raleway', sans-serif;
-        position: absolute;
-        font-size: 20px;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: black;
+        margin-top: 20px;
       }
 
-    #two {
+      .subtitle {
         
-        font-family: 'Raleway', sans-serif;
-        position: absolute;
-        font-size: 20px;
-
-        top: 60%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: black;
-    }
-    #three {
-        font-family: 'Raleway', sans-serif;
-        position: absolute;
-        font-size: 20px;
+        font-family: 'Source Code Pro', monospace;
+        font-size: 50px;
+        font-weight: 500;
         z-index: 20;
-        top: 70%;
-        left: 50%;
-        transform: translate(-50%, -50%);
         color: black;
-    }
+      }
 
-
-
-
-    #resume {
-        font-family: 'Raleway', sans-serif;
-        position: absolute;
-        font-size: 15px;
-        z-index: 20;
-        top: 90%;
-        left: 25%;
-        transform: translate(-50%, -50%);
-        color: black;
-    }
-
-    #linkedin {
-        font-family: 'Raleway', sans-serif;
-        position: absolute;
-        font-size: 15px;
-        z-index: 20;
-        top: 85%;
-        left: 35%;
-        transform: translate(-50%, -50%);
-        color: black;
-    }
-
-    #github {
-        font-family: 'Raleway', sans-serif;
-        position: absolute;
-        font-size: 15px;
-        z-index: 20;
-        top: 80%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: black;
-    }
-
-    #writing {
-        font-family: 'Raleway', sans-serif;
-        position: absolute;
-        font-size: 15px;
-        z-index: 20;
-        top: 85%;
-        left: 65%;
-        transform: translate(-50%, -50%);
-        color: black;
-    }
-
-    #instagram {
-        font-family: 'Raleway', sans-serif;
-        position: absolute;
-        font-size: 15px;
-        z-index: 20;
-        top: 90%;
-        left: 75%;
-        transform: translate(-50%, -50%);
-        color: black;
-    }
-}
-
-
-    
-    
-    body{ 
-        margin:0; font:normal 75% Arial, Helvetica, sans-serif; 
-    } 
-    canvas
-    { 
-        display: block; 
-        vertical-align: bottom; 
-    } 
-    #particles-js
-    { 
-        position:absolute; 
-        width: 100%; height: 100%; 
-        background-color: #ffffff; 
-        background-image: url(""); 
-        background-repeat: no-repeat; 
-        background-size: cover; 
-        background-position: 50% 50%; 
-    } 
-    .count-particles
-    { 
-        background: #000022; 
-        position: absolute; 
-        top: 48px; 
-        left: 0; 
-        width: 80px; 
-        color: #13E8E9; 
-        font-size: .8em; 
-        text-align: left; 
-        text-indent: 4px; 
-        line-height: 14px; 
-        padding-bottom: 2px; 
-        font-family: Helvetica, Arial, sans-serif; 
-        font-weight: bold; 
-    } 
-    .js-count-particles
-    { 
-            font-size: 1.1em; 
-    } 
-    #stats, 
-    .count-particles
-    { 
-        -webkit-user-select: none; 
-        margin-top: 5px; 
-        margin-left: 5px; 
-    } 
-    #stats
-    { 
-        border-radius: 3px 3px 0 0; 
-        overflow: hidden; 
-    } 
-    .count-particles{ 
-        border-radius: 0 0 3px 3px; 
-    }
-    #spec {
+      #spec {
         text-decoration: none;
         border-top: 5px solid rgb(0, 255, 239);
         
     }
 
+    .margin-style-first {
+        margin: 160px 160px 20px 160px;
+    }
+    .margin-style-second {
+        margin: 10px 60px 10px 60px;
+    }
+    .margin-style-third {
+        margin: 10px 140px 30px 140px;
+    }
+}
+    @media screen and (max-device-width: 888px){
 
 
-    .hidden {
-        display: none;
+    #two {
+        font-family: 'Raleway', sans-serif;
+        position: absolute;
+        font-size: 20px;
+
+        top: 60%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: black;
+    }
+    .margin-style-first {
+        margin: 20px 40px 40px 20px;
+    }
+    .margin-style-second {
+        margin: 30px;
     }
 
-
-    u {
-        text-decoration: none;
-        border-bottom: 5px solid black;
-      }
-
-      
+    .margin-style-third {
+        margin: 60px;
+    }
+}
 
       
     
