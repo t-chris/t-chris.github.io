@@ -1,10 +1,29 @@
 $(document).ready(function () {
-    $('h1').fadeIn(2000).removeClass('hidden');
-    $('div').fadeIn(7000).removeClass('hidden');
+    $('h1').fadeIn(1000).removeClass('hidden');
+    $('div').fadeIn(4000).removeClass('hidden');
+
+
+  var options = {
+    bottom: '64px', // default: '32px'
+    right: 'unset', // default: '32px'
+    left: '32px', // default: 'unset'
+    time: '0.5s', // default: '0.3s'
+    mixColor: 'white', // default: '#fff'
+    backgroundColor: 'white',  // default: '#fff'
+    buttonColorDark: '#100f2c',  // default: '#100f2c'
+    buttonColorLight: '#fff', // default: '#fff'
+    saveInCookies: false, // default: true,
+    label: '🌓', // default: ''
+    autoMatchOsTheme: true // default: true
+  }
+  
+  const darkmode = new Darkmode(options);
+  darkmode.showWidget();
+
+  console.log(darkmode.isActivated());
+  
   });
 
-  
-  
 var i = 0,
 a = 0,
 isBackspacing = false,
@@ -15,7 +34,7 @@ var textArray = [
 "University of Waterloo waterloser '24.", 
 "ski instructor at Grouse Mountain.",
 "amateur writer on Medium.",
-"avoiding leg day probably."
+"avoiding leg day, probably."
 ];
 
 var speedForward = 50,

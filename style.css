@@ -18,13 +18,6 @@ html, body {
 	color: rgba(253, 149, 90, 0.8);
 }
   
-  
- .line{
-width: 112px;
-height: 47px;
-border-bottom: 1px solid black;
-position: absolute;
-}
 
 /* Cursor Styling */
 
@@ -32,7 +25,7 @@ position: absolute;
     content:'';
     display:inline-block;
     margin-left:3px;
-    background-color:white;
+    background-color:#222222;
     animation-name:blink;
     animation-duration:0.5s;
     animation-iteration-count: infinite;
@@ -80,30 +73,33 @@ position: absolute;
     display: none;
 }
 
+.subtitle {
+        
+  font-family: 'Source Code Pro', monospace;
+  font-size: 50px;
+  font-weight: 500;
+  z-index: 20;
+  color: black;
+}
+
+#spec {
+  color : black;
+  text-decoration: none;
+  border-top: 5px solid rgb(0, 255, 239);
+  
+}
+.darkmode-layer, .darkmode-toggle {
+  z-index: 500;
+}
 @media only screen and (min-width: 888px) {/*tablets and desktop*/
     .title {
         font-family: 'Source Code Pro', monospace;
         font-size: 40px;
         font-weight: 500;
         z-index: 20;
-        color: black;
+        color: #222222;
         margin-top: 20px;
       }
-
-      .subtitle {
-        
-        font-family: 'Source Code Pro', monospace;
-        font-size: 50px;
-        font-weight: 500;
-        z-index: 20;
-        color: black;
-      }
-
-      #spec {
-        text-decoration: none;
-        border-top: 5px solid rgb(0, 255, 239);
-        
-    }
 
     .margin-style-first {
         margin: 160px 160px 20px 160px;
