@@ -113,17 +113,6 @@ html, body {
 }
     @media screen and (max-device-width: 888px){
 
-
-    #two {
-        font-family: 'Raleway', sans-serif;
-        position: absolute;
-        font-size: 20px;
-
-        top: 60%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-        color: black;
-    }
     .margin-style-first {
         margin: 20px 40px 40px 20px;
     }
