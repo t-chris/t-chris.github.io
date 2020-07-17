@@ -33,7 +33,7 @@ var textArray = [
 " software developer at Scotiabank.", 
 "University of Waterloo waterloser '24.", 
 "ski instructor at Grouse Mountain.",
-"amateur writer on Medium.",
+"mediocre writer on Medium.",
 "avoiding leg day, probably."
 ];
 
