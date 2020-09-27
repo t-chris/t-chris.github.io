@@ -1,7 +1,7 @@
 html, body {
     height: 100%;
     width: 100%;
-    font-family: 'Source Code Pro', monospace;
+    font-family: 'Secular One', sans-serif;
     color: #222222;
     scroll-behavior: smooth;
   }
@@ -17,7 +17,19 @@ html, body {
 .string-highlight{
 	color: rgba(253, 149, 90, 0.8);
 }
-  
+
+
+.title {
+  margin-top: 30px;
+}
+
+
+
+
+.everything-else {
+  margin-left: 10%;
+  margin-right: 10%;
+}
 
 /* Cursor Styling */
 
@@ -75,7 +87,7 @@ html, body {
 
 .subtitle {
         
-  font-family: 'Source Code Pro', monospace;
+  font-family: 'Secular One', sans-serif;
   font-size: 50px;
   font-weight: 500;
   z-index: 20;
@@ -93,8 +105,8 @@ html, body {
 }
 @media only screen and (min-width: 888px) {/*tablets and desktop*/
     .title {
-        font-family: 'Source Code Pro', monospace;
-        font-size: 40px;
+      font-family: 'Secular One', sans-serif;
+        font-size: 70px;
         font-weight: 500;
         z-index: 20;
         color: #222222;
@@ -112,7 +124,6 @@ html, body {
     }
 }
     @media screen and (max-device-width: 888px){
-
     .margin-style-first {
         margin: 20px 40px 40px 20px;
     }
