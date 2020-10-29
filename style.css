@@ -18,7 +18,13 @@ html, body {
 	color: rgba(253, 149, 90, 0.8);
 }
 
+.row {
+  display: flex; /* equal height of the children */
+}
 
+.col {
+  flex: 1; /* additionally, equal width */
+}
 .title {
   margin-top: 30px;
 }
