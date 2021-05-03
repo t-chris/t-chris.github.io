@@ -118,7 +118,7 @@ body{margin-top:20px;}
 
 @media (max-width: 767px) {
     .timeline .event:after {
-        left: -31.8px;
+        left: -11.8px;
     }
 }
 
