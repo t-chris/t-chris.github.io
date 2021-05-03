@@ -30,8 +30,7 @@ isBackspacing = false,
 isParagraph = false;
 
 var textArray = [
-" backend engineer at Insticator.", 
-"University of Waterloo waterloser '24.", 
+" University of Waterloo waterloser '24.",  
 "ski instructor at Grouse Mountain.",
 "avoiding leg day, probably."
 ];
