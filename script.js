@@ -29,7 +29,7 @@ a = 0,
 isBackspacing = false,
 isParagraph = false;
 
-var textArray = [
+var op = [
 " University of Waterloo waterloser '24.",  
 "ski instructor at Grouse Mountain.",
 "avoiding leg day, probably."
