@@ -8,10 +8,10 @@
 	<meta name="author" content="Chris Tan">
 	<meta name="description" content="To err is human; but to to really foul things up you need a computer. Here's my attempt.">
 	<!--Bootstrap 4-->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 	
 	<!--Font Awesome-->
 	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
@@ -37,8 +37,8 @@
       <div class="col-lg-6 col-xs-12">
         <h1 class="text-left hidden title" >chris tan</h1> 
         <p class="lead">👋 hey! im chris, and here's what im working on:</p>
-        <div class="list-group">
-          <a id="one" class=" list-group-item list-group-item-action flex-column align-items-start active">
+        <div class="list-group shadow">
+          <a id="one" class=" list-group-item list-group-item-action flex-column align-items-start">
             <div class="d-flex w-100 justify-content-between">
               <h5 class="mb-1">What Astra Knew</h5>
               <small>March 2nd, 2020</small>
@@ -96,8 +96,8 @@
 
 <!--Experience Timeline-->
 
-<div class="container">
-  <div class="card mb-3">
+<div class="container hidden">
+  <div class="card mb-3 shadow">
     <img src="bf2042.jpg" class="card-img-top" alt="...">
     <div class="card-body">
       <h4 class="card-title"><b style="color:red">Electronic Arts</b>: Software Engineer</h4>
@@ -107,8 +107,8 @@
   </div>
 </div>
 
-<div class="container">
-  <div class="card mb-3">
+<div class="container hidden ">
+  <div class="card mb-3 shadow ">
     <img src="insticator.png" class="card-img-top" alt="...">
     <div class="card-body">
       <h4 class="card-title"><b style="color:blue">Insticator</b>: Backend Engineer</h4>
@@ -118,8 +118,8 @@
   </div>
 </div>
 
-<div class="container">
-  <div class="card mb-3">
+<div class="container hidden">
+  <div class="card mb-3 shadow">
     <img src="scot2.jpg" class="card-img-top" alt="...">
     <div class="card-body">
       <h4 class="card-title"><b style="color: #ee3124">Scotiabank</b>: Software Developer</h4>
@@ -147,7 +147,7 @@
 <div class="container-fluid padding hidden">
   <div class="row padding margin-style-third">
     <div class="col-md-6 col-xs-12">
-      <div class="card" style="margin-top: 30px; margin-bottom: 20px;">
+      <div class="card  shadow" style="margin-top: 30px; margin-bottom: 20px;">
         <div class="card-body">
           <h4 class="card-title">What Astra Knew</h4>
           <p class="card-text">Interstellar mortuary driver Steven Bailey was making his way from the Pleiades when the coffin containing supposedly dead CPO Astra Voynich began shifting in the trunk. Loss, hilarities, and everything in between ensue as Steven and the annoyed and now-alive Astra scramble to get back to Earth as everything falls apart around them.</p>
@@ -156,7 +156,7 @@
       </div>
     </div>
       <div class="col-md-6 col-xs-12">
-        <div class="card" style="margin-top: 30px; margin-bottom: 20px;">
+        <div class="card  shadow" style="margin-top: 30px; margin-bottom: 20px;">
           <div class="card-body">
             <h4 class="card-title">What Remains</h4>
             <p class="card-text">Marlboro Reds, aspartame-spiked gum, and profanities your mother would faint at are thrown around in What Remains, a comedy thriller novel based on a world after the truth about the afterlife is revealed. Currently on hiatus; I'm finding myself deeply unsatisfied with the overall structure, though individual moments/chapters have some substance. Needs work.</p>
@@ -172,7 +172,7 @@
 <div class="container-fluid padding hidden">
 	<div class="row padding margin-style-third">
     <div class="col-md-4 col-xs-12">
-      <div class="card" style="margin-top: 30px; margin-bottom: 20px;">
+      <div class="card shadow" style="margin-top: 30px; margin-bottom: 20px;">
         <img class="card-img-top" src="img/blog/olympus.png">
         <div class="card-body">
           <h4 class="card-title">The Modern Fire of Olympus - Dissecting Popular Science as a Media</h4>
@@ -182,7 +182,7 @@
       </div>
     </div>
 		<div class="col-md-4 col-xs-12">
-			<div class="card" style="margin-top: 30px; margin-bottom: 20px;">
+			<div class="card shadow" style="margin-top: 30px; margin-bottom: 20px;">
 				<img class="card-img-top" src="img/blog/mueller.jpg">
 				<div class="card-body">
 					<h4 class="card-title">Tom Mueller: The Indomitable Human Spirit</h4>
@@ -191,9 +191,9 @@
 				</div>
 			</div>
     </div>
-            <!--You'd think I'd just put this in a DB and just use a GET from the front-end but hell no that sounds awful.-->
+
             <div class="col-md-4 col-xs-12">
-              <div class="card" style="margin-top: 30px; margin-bottom: 20px;">
+              <div class="card shadow" style="margin-top: 30px; margin-bottom: 20px;">
                 <img class="card-img-top" src="img/blog/march.jpeg">
                 <div class="card-body">
                   <h4 class="card-title">the same day since March</h4>
@@ -203,7 +203,7 @@
               </div>
             </div>
 		<div class="col-md-4 col-xs-12">
-			<div class="card" style="margin-top: 30px; margin-bottom: 20px;">
+			<div class="card shadow" style="margin-top: 30px; margin-bottom: 20px;">
 				<img class="card-img-top" src="img/blog/spiderverse.jpg">
 				<div class="card-body">
 					<h4 class="card-title">The Totally Legitimate, Highly Objective Spiderman: Into the Spiderverse Review</h4>
@@ -212,9 +212,9 @@
 				</div>
 			</div>
     </div>
-    <!--You'd think I'd just put this in a DB and just use a GET from the front-end but hell no that sounds awful.-->
+    <!--oh man.-->
     <div class="col-md-4 col-xs-12">
-			<div class="card" style="margin-top: 30px; margin-bottom: 20px;">
+			<div class="card shadow" style="margin-top: 30px; margin-bottom: 20px;">
 				<img class="card-img-top" src="img/blog/malph.jpg">
 				<div class="card-body">
 					<h4 class="card-title">Why "Malphite Doesn't Do Anything" - The Microcosm of League of Legends Solo Queue's Worst</h4>
@@ -226,12 +226,34 @@
 
 
         <div class="col-md-4 col-xs-12">
-          <div class="card" style="margin-top: 30px; margin-bottom: 20px;">
+          <div class="card shadow" style="margin-top: 30px; margin-bottom: 20px;">
             <img class="card-img-top" src="img/blog/timeless.jpeg">
             <div class="card-body">
               <h4 class="card-title">Timeless</h4>
               <p class="card-text">There's no better a time than 2:45AM.</p>
               <a target ="_blank" href="https://medium.com/uwaterloo-voice/timeless-d7879713cff7" class="btn btn-outline-secondary">See Full</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-xs-12">
+          <div class="card shadow" style="margin-top: 30px; margin-bottom: 20px;">
+            <img class="card-img-top" src="img/blog/cereal.png">
+            <div class="card-body">
+              <h4 class="card-title">I Ordered Magic Cereal So You Didn't Have To</h4>
+              <p class="card-text">No but seriously, you really didn't half to. This stuff sucks.</p>
+              <a target ="_blank" href="https://tanchris.medium.com/i-ordered-magic-spoon-cereal-so-you-didnt-have-to-8fbd31a46f5c" class="btn btn-outline-secondary">See Full</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 col-xs-12">
+          <div class="card shadow" style="margin-top: 30px; margin-bottom: 20px;">
+            <img class="card-img-top" src="img/blog/autum.jpg">
+            <div class="card-body">
+              <h4 class="card-title">The autumn leaves are not as they seem.</h4>
+              <p class="card-text">They smell of rust, of Ironwrought...</p>
+              <a target ="_blank" href="https://tanchris.medium.com/?p=aaaf84f68eb4" class="btn btn-outline-secondary">See Full</a>
             </div>
           </div>
         </div>
