@@ -41,7 +41,7 @@ speedBetweenLines = 1000,
 speedBackspace = 25; 
 
 //Run the loop
-typeWriter("output", textArray);
+typeWriter("output", op);
 
 function typeWriter(id, ar) {
 var element = $("#" + id),
